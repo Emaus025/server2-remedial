@@ -7,7 +7,7 @@ const app = express();
 
 // Configura CORS para permitir solicitudes desde el dominio de tu frontend
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://frontend-remedial.vercel.app'],
+  origin: ['http://localhost:3000', 'https://frontend-remedial-chi.vercel.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
